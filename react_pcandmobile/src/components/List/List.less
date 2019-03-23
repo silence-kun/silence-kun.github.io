@@ -1,0 +1,40 @@
+.goods-list{
+    li{
+        width: 20%;
+        box-sizing: border-box;
+        padding:5px;
+        
+        a{
+            padding:10px;
+            display: block;
+            border:1px solid #ccc;
+            .img-box{
+                height: 198px;
+                overflow-y: hidden;
+            }
+
+            h3{
+                @h:28px;
+                font:bold 16px/@h microsoft yahei;
+                color:#333;
+                height: 2*@h;
+                overflow-y: hidden;
+            }
+
+            .price{
+                @h:30px;
+                color:#999;
+                font-size:14px;
+                line-height: @h;
+
+                .frt{
+                    font-size: 12px;
+                }
+                span{
+                    color:#E20;
+                    font-size:22px;
+                }
+            }
+        }
+    }
+}

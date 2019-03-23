@@ -1,0 +1,3 @@
+// export const HOME_SET_BANNER = "HOME_SET_BANNER"
+export const HOME_SET_GOODS = "HOME_SET_GOODS"
+export const DETAIL_SET_GOODS = "DETAIL_SET_GOODS"
